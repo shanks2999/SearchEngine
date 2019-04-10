@@ -34,11 +34,14 @@ This project was built using Python, HTML, CSS, JavaScript, Flask (with Restful 
 #### How to run ####
 
 1.	Dataset Available: If you already have the compiled dataset available then you can simply run main.py file with the query parameter. E.g. python main.py “uic”
+        
         * This will put your output in the results folder in 3 files as explained above
      
 2.	Dataset NOT Available: If you don’t have the compiled dataset available then you must execute few files before running step 1 in the same order mentioned.
+        
         * First you need to crawl the web, find links, get textual data, clean it, stem it and tokenize it and store all the info locally. To do this you must run the file “main_webCrawler.py”
         * Second you need to form the web graph for page ranking. Parse all the links incoming and outgoing in for all 3000 links. This results in a sparse graph with more than 16000 connections. To do this you must run the file “main_PR.py”
+           
             * This uses python pickle to store graph in a ‘.p’ file and again the ordered page rank also in a ’.p’ file.s
             * 2 pickle files are “page_rank.p” and “web_graph.p”
 
