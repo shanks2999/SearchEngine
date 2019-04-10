@@ -34,8 +34,7 @@ This project was built using Python, HTML, CSS, JavaScript, Flask (with Restful 
 #### How to run ####
 
 1.	Dataset Available: If you already have the compiled dataset available then you can simply run main.py file with the query parameter. E.g. python main.py “uic”
-        
-        * This will put your output in the results folder in 3 files as explained above
+    * This will put your output in the results folder in 3 files as explained above
      
 2.	Dataset NOT Available: If you don’t have the compiled dataset available then you must execute few files before running step 1 in the same order mentioned.
         
