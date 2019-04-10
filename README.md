@@ -8,6 +8,7 @@ This project was built using Python, HTML, CSS, JavaScript, Flask (with Restful 
 
 
 -	Crawled around ~3000 websites starting from root www.cs.uic.edu
+
         -	Used Http.Client to check for alive sites to speed up performance.
         -	Fetched visible text from sites and stored them in data folder named from 1 to 3000.
         -	The stored files are already tokenized, trimmed, stemmed and have their stop words removed.
